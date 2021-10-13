@@ -1,0 +1,25 @@
+ /*======LOGIN=====*/
+
+ .background-login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/login.jpg);
+    @include general-background;
+  }
+  
+  /*===Desde acá hasta btn-dark, también comparten uso con la sección de "registros"*/
+  
+  .content {
+    height: 100vh;
+  }
+  
+  .form-check-input:checked {
+    background: $purple;
+    border-color: $purple;
+  }
+  
+  .custom-tittle {
+    color: $purple;
+  }
+  
+  .btn-dark {
+    color: $purple;
+  }

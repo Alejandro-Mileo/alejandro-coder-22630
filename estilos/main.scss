@@ -1,0 +1,25 @@
+@import "../partials/colors";
+@import "../partials/mixin";
+@import "../partials/font-size-style";
+@import "../partials/reset";
+@import "../partials/header";
+@import "../partials/index";
+@import "../partials/login";
+@import "../partials/cards";
+@import "../partials/404";
+@import "../partials/contact";
+                  
+
+
+ 
+  
+  /*======REGISTRO======*/
+
+.registro {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/registro.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+

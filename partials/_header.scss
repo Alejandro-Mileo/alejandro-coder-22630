@@ -1,0 +1,26 @@
+.dark-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  #hero .container {
+    height: 60vh;
+  }
+  
+  #nav-logo {
+    color: $white;
+  }
+  
+  nav ul li .active {
+    border-bottom: 2px solid transparent;
+  
+    &:hover {
+      border-bottom-color: $purple;
+      transition: 750ms;
+    }
+  }
+  .nav--color{
+    color: blue !important;
+  }
