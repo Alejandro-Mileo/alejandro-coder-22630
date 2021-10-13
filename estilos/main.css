@@ -274,6 +274,14 @@ nav ul li .active:hover {
   color: #a7a8a8;
 }
 
+.registro {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/registro.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/registro.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
 .contact-background {
   background-image: url(../img/contact-background.jpg);
   background-position: center;
