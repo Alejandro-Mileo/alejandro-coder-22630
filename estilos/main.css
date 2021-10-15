@@ -14,15 +14,15 @@ body{
   text-transform: uppercase;
 }
 .dark-bg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(../img/hero-background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero-background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(../img/hero.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 #hero .container {
-  height: 60vh;
+  height: 80vh;
 }
 
 #nav-logo {
