@@ -7,6 +7,9 @@
   list-style: none;
   text-decoration: none;
   font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
 }
 
 .dark-bg {
