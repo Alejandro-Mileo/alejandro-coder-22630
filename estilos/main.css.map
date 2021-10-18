@@ -14,7 +14,7 @@
         "../partials/_contact.scss",
         "../partials/_404.scss",
         "../partials/_about.scss",
-        "../partials/_europa.scss"
+        "../partials/_destinos-index.scss"
     ],
     "names": [],
     "file": "main.css"
