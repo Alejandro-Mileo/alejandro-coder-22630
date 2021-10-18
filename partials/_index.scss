@@ -1,0 +1,34 @@
+@mixin general-background {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fondo-index {
+    background-image: url(../img/fondo-index.jpg);
+    @include general-background;
+    
+  }
+  
+  .card-title {
+    text-decoration: underline;
+  }
+  
+  .img-effect {
+    overflow: hidden;
+  
+    img {
+      transition: all .9s ease;
+    }
+  
+    &:hover img {
+      transform: scale(1.5);
+    }
+  }
+  
+  .card-argentina {
+    border: 4px solid $white;
+    box-shadow: 2px 4px 30px  $card-shadow;
+    background-color: $white;
+    border-radius: 2.5%;
+  }

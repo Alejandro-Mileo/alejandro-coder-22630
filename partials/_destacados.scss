@@ -1,0 +1,74 @@
+.gridSomos {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+  }
+
+
+
+
+  .somosBox1 {
+    background-image: url(../img/backgroundSomos.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 1/3;
+    grid-row: 1/6;
+    border: 2px solid $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    h2 {
+      width: 300px;
+      font-size: $somos-font-size;
+      color: $black;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+  }
+  .somosBox2 {
+    background-image: url(../img/backgroundSomos2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 3/5;
+    grid-row: 1/6;
+    border: 2px solid $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    h2 {
+      width: 300px;
+      font-size: $somos-font-size;
+      color: $black;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+  }
+  
+  .somosBox3 {
+    background-image: url(../img/backgroundSomos3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: 5/7;
+    grid-row: 1/6;
+    border: 2px solid $black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    h2 {
+      width: 300px;
+      font-size: $somos-font-size;
+      color: $black;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+    }
+  }
