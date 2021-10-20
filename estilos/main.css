@@ -12,13 +12,10 @@
   text-transform: uppercase;
 }
 
-<<<<<<< HEAD
-=======
 img {
   width: 100%;
 }
 
->>>>>>> devale
 .dark-bg {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(../img/hero.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero.jpg);
@@ -28,11 +25,7 @@ img {
 }
 
 #hero .container {
-<<<<<<< HEAD
-  height: 80vh;
-=======
   height: 70vh;
->>>>>>> devale
 }
 
 #nav-logo {
@@ -53,42 +46,6 @@ nav ul li .active:hover {
   color: blue !important;
 }
 
-<<<<<<< HEAD
-.fondo-index {
-  background-image: url(../img/fondo-index.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-title {
-  text-decoration: underline;
-}
-
-.img-effect {
-  overflow: hidden;
-}
-
-.img-effect img {
-  -webkit-transition: all .9s ease;
-  transition: all .9s ease;
-}
-
-.img-effect:hover img {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
-}
-
-.card-argentina {
-  border: 4px solid #ffff;
-  -webkit-box-shadow: 2px 4px 30px #e78e44;
-          box-shadow: 2px 4px 30px #e78e44;
-  background-color: #ffff;
-  border-radius: 2.5%;
-}
-
-=======
->>>>>>> devale
 /*======LOGIN=====*/
 .background-login {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/login.jpg);
@@ -397,8 +354,6 @@ nav ul li .active:hover {
   color: #ffff;
   background-color: #31559c;
 }
-<<<<<<< HEAD
-=======
 
 .intro .divider {
   background-color: #3a8878;
@@ -461,5 +416,4 @@ nav ul li .active:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
->>>>>>> devale
 /*# sourceMappingURL=main.css.map */
