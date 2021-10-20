@@ -428,8 +428,8 @@ nav ul li .active:hover {
 .destino {
   position: relative;
   overflow: hidden;
-  -webkit-box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.4);
-          box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 0 16px 4px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
 }
 
