@@ -465,6 +465,8 @@ nav ul li .active:hover {
 .item-image img {
   border: 6px solid white;
   border-radius: 50%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .item-image img:hover {
