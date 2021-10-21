@@ -37,7 +37,7 @@ nav ul li .active {
 }
 
 nav ul li .active:hover {
-  border-bottom-color: #63c7c7;
+  border-bottom-color: #ff0040;
   -webkit-transition: 750ms;
   transition: 750ms;
 }
@@ -469,5 +469,19 @@ nav ul li .active:hover {
   -webkit-transition: all .5s;
   transition: all .5s;
   border: 6px solid #ff0040;
+}
+
+.list-name {
+  color: #fff !important;
+}
+
+.list-name:hover {
+  -webkit-transition: all .5s !important;
+  transition: all .5s !important;
+  color: #ff0040 !important;
+}
+
+.list-title {
+  color: #ff0040;
 }
 /*# sourceMappingURL=main.css.map */

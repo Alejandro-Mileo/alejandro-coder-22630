@@ -1,0 +1,10 @@
+.list-name{
+    color: #fff !important;
+    &:hover{
+        transition: all .5s !important;
+        color: $RojoHover !important;
+    }
+}
+.list-title{
+    color: $RojoHover;
+}
