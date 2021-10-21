@@ -37,7 +37,7 @@ nav ul li .active {
 }
 
 nav ul li .active:hover {
-  border-bottom-color: #b42cdd;
+  border-bottom-color: #63c7c7;
   -webkit-transition: 750ms;
   transition: 750ms;
 }
@@ -416,4 +416,62 @@ nav ul li .active:hover {
   -webkit-transform: scale(1);
           transform: scale(1);
 }
-/*# sourceMappingURL=main.css.map */
+
+.team-wrapper {
+  padding: 60px 0;
+}
+
+.section-title {
+  padding: 20px 0;
+}
+
+.team-item {
+  position: relative;
+  background-color: #424248;
+  margin: 15px 5px;
+  overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border-radius: 50%;
+}
+
+.item-meta {
+  position: absolute;
+  width: 100%;
+  bottom: -35px;
+  left: 0;
+  padding: 10px 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)));
+  background: linear-gradient(rgba(0, 0, 0, 0.8));
+}
+
+.item-meta h3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.item-meta h6 {
+  color: #ff0040;
+  font-weight: bolder;
+}
+
+.team-item:hover .item-meta {
+  bottom: 0;
+}
+
+.item-image img {
+  border: 6px solid white;
+  border-radius: 50%;
+}
+
+.item-image img:hover {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  border: 6px solid #ff0040;
+}
+
+
+
