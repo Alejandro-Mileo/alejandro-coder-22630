@@ -42,10 +42,6 @@ nav ul li .active:hover {
   transition: 750ms;
 }
 
-.nav--color {
-  color: blue !important;
-}
-
 /*======LOGIN=====*/
 .background-login {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../img/login.jpg);
@@ -474,6 +470,4 @@ nav ul li .active:hover {
   transition: all .5s;
   border: 6px solid #ff0040;
 }
-
-
-
+/*# sourceMappingURL=main.css.map */
