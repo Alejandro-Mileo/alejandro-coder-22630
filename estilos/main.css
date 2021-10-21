@@ -17,15 +17,15 @@ img {
 }
 
 .dark-bg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.85)), to(rgba(0, 0, 0, 0.85))), url(../img/hero.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../img/hero.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.55)), to(rgba(0, 0, 0, 0.55))), url(../img/hero-alter.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/hero-alter.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 #hero .container {
-  height: 70vh;
+  height: 80vh;
 }
 
 #nav-logo {
