@@ -403,8 +403,8 @@ nav ul li .active:hover {
   opacity: 0.2;
   -webkit-transform: scale(0);
           transform: scale(0);
-  -webkit-transition: all 0.7s ease-out;
-  transition: all 0.7s ease-out;
+  -webkit-transition: all .5s ease-out;
+  transition: all .5s ease-out;
 }
 
 .destino:hover .info {
