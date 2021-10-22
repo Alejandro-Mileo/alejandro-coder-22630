@@ -463,7 +463,6 @@ nav ul li .active:hover {
   border-radius: 50%;
   -o-object-fit: fill;
      object-fit: fill;
-  height: auto;
 }
 
 .item-image img:hover {
