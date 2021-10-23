@@ -1,12 +1,12 @@
 .dark-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(../img/hero-alter.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/hero-alter.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   }
 
   #hero .container {
-    height: 80vh;
+    height: 85vh;
   }
   
   #nav-logo {
@@ -19,6 +19,15 @@
     &:hover {
       border-bottom-color: $RojoHover;
       transition: 750ms;
+    }
+  }
+
+  .list-name{
+    color: #fff !important;
+    
+    &:hover{
+      color: $RojoHover !important;
+      transition: all .5s !important;
     }
   }
 
