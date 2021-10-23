@@ -274,9 +274,9 @@ nav ul li .active:hover {
 .destino-estilo {
   position: relative;
   overflow: hidden;
-  -webkit-box-shadow: 4px rgba(255, 253, 253, 0.2);
-          box-shadow: 4px rgba(255, 253, 253, 0.2);
-  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 30px rgba(102, 27, 117, 0.8);
+          box-shadow: 0 5px 30px rgba(102, 27, 117, 0.8);
+  border-radius: 5%;
 }
 
 .info-estilo {
@@ -309,16 +309,24 @@ nav ul li .active:hover {
 }
 
 .asia-background {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/asia-background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asia-background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/asia-background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/asia-background.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .europa-background {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/background-europa.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background-europa.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/background-europa.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background-europa.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bahamas-background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/background_bahamas.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background_bahamas.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
