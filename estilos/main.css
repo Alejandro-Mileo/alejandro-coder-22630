@@ -50,8 +50,8 @@ nav ul li .active:hover {
 
 .list-name:hover {
   color: #ff0040 !important;
-  -webkit-transition: all .5s !important;
-  transition: all .5s !important;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 /*======LOGIN=====*/
@@ -311,6 +311,14 @@ nav ul li .active:hover {
 .asia-background {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/asia-background.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/asia-background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.europa-background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../img/background-europa.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background-europa.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
