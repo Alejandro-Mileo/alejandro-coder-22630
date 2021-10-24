@@ -6,10 +6,10 @@
   }
   
   .login-form {
-    padding: 50px 0;
+    padding: 300px 0;
   
     form {
-      background-color: rgb(37, 37, 37);
+      background-color: rgba(255, 255, 255, 0.2);
       max-width: 500px;
       margin: auto;
       padding: 40px 60px;
@@ -20,10 +20,6 @@
   
     .form-name {
       text-align: center;
-      font-size: 40px;
-      color: #78c2ad;
-      height: 100px;
-      margin: auto;
       margin-bottom: 25px;
       line-height: 100px;
     }
@@ -34,38 +30,8 @@
       padding: 10px 20px;
     }
   
-    .login-account {
-      border-radius: 30px;
-      padding: 10px 20px;
-      font-size: 18px;
-      font-weight: bold;
-      background-color: rgb(22, 28, 45);
-      border: none;
-      color: white;
-      margin-top: 20px;
-    }
   }
-  .login-btn a{
+  .login-txt a{
     text-decoration: none !important;
     color: #fff !important;
-  }
-
-  .login-form .social-icons {
-    margin-top: 30px;
-    margin-bottom: 16px;
-  
-    a {
-      margin: 0 3px;
-      color: #090a0a;
-      width: 45px;
-      display: inline-block;
-      height: 45px;
-      text-align: center;
-      line-height: 45px;
-  
-      &:hover {
-        text-decoration: none;
-        opacity: 0.6;
-      }
-    }
   }
