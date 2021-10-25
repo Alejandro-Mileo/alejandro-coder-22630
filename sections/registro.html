@@ -42,7 +42,7 @@
   <!--========NAV======-->
   <!--========NAV======-->
 
-  <nav class="navbar navbar-expand-lg navbar-dark w-100 bg-dark px-4 py-3">
+  <nav class="navbar navbar-expand-lg navbar-dark w-100 bg-dark px-4 py-3 w-100" id="position">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html"><span class="list-name fs-5" id="nav-logo">WORLD
           TRAVELERS</span></a>
@@ -87,68 +87,35 @@
   <!--=========SIGN UP=========-->
   <!--=========SIGN UP=========-->
 
-  <main class="registro">
-    <section class="container">
-      <div class="row content d-flex justify-content-center align-items-center">
-        <div class="col-md-5">
-          <div class="box shadow bg-white p-4">
-            <h3 class="mb-4 text-center fs-1 list-title">¡Crea tu cuenta!</h3>
-            <form class="mb-3">
-              <div class="form-floating mb-3">
-
-                <input type="email" class="form-control rounded-0" class="floatingInput" placeholder="nombre">
-                <label for="floatingInput">Nombre completo</label>
-
-              </div>
-
-              <div class="form-floating mb-3">
-
-                <input type="email" class="form-control rounded-0" class="floatingInput"
-                  placeholder="email@worldtravelers.com">
-                <label for="floatingInput">Correo</label>
-
-              </div>
-
-              <div class="form-floating mb-3">
-
-                <input type="text" class="form-control rounded-0" class="floatingInput" placeholder="number123">
-                <label for="floatingInput">Teléfono</label>
-
-              </div>
-
-              <div class="form-floating mb-3">
-
-                <input type="password" class="form-control rounded-0" class="floatingInput"
-                  placeholder="password@worldtravelers.com">
-                <label for="floatingInput">Contraseña</label>
-
-              </div>
-
-              <div class="form-check mb-3">
-                <input type="checkbox" class="form-check-input" id="autoSizingCheck2">
-                <label for="" class="form-check-label">Acepto los términos y condiciones.</label>
-              </div>
-
-              <div class="form-check mb-3">
-                <input type="checkbox" class="form-check-input" id="autoSizingCheck2">
-                <label for="" class="form-check-label">Quiero recibir ofertas y nuevos destinos por e-mail.</label>
-              </div>
-
-              <div class="d-grid gap-2 mb-3">
-                <button type="button" class="btn btn-dark btn-lg border-0 list-title">login</button>
-              </div>
-
-              <div class="crear-cuenta mb-3 text-center">
-                <p>Ya tengo mi cuenta.<span><a href="../sections/login.html" class="text-decoration-none">Ingresar al
-                      sitio.</a></span> </p>
-            </form>
+  <section class="signup-background">
+    <div class="login-form">
+      <form action="#">
+          <div class="form-name">
+              <span class="text-light fs-2">Sign Up</i></span>
           </div>
+          <div class="form-group">
+              <input type="text" class="form-control item" id="name" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control item" id="email" placeholder="Email">
         </div>
-      </div>
+          <div class="form-group">
+              <input type="password" class="form-control item" id="password" placeholder="Contraseña">
+          </div>
+          <p class="login-txt text-center text-decoration-none mt-5"><a href="#" class="list-name">Crear Cuenta</a></p>
+          <div class="form-group text-center mt-5"></div>
+          <div class="col-md-8 intro mx-auto text-center">
+            <div class="divider bg-light my-5 w-100"></div>
+          <h5 class="text-light text-center mt-4 fs-5">Registrarme con:</h5>
+          <div class="social-icons text-center my-4">
+              <a href="#" class="list-name mx-3"><i class="fab fa-facebook fa-2x"></i></a>
+              <a href="#" class="list-name mx-3"><i class="fab fa-google fa-2x"></i></a>
+              <a href="#" class="list-name mx-3"><i class="fab fa-twitter fa-2x"></i></a>
 
-
-    </section>
-  </main>
+          </div>
+      </form>
+  </div>
+  </section>
 
   <!--=========FOOTER=========-->
   <!--=========FOOTER=========-->
