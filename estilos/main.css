@@ -109,10 +109,9 @@ nav ul li .active:hover {
   background-size: cover;
 }
 
-.intro .divider {
-  background-color: #3a8878;
+.divider {
   height: 2px;
-  width: 35%;
+  width: 55%;
   margin: 18px auto;
 }
 
