@@ -29,10 +29,6 @@ img {
   height: 85vh;
 }
 
-#nav-logo {
-  color: #ffff;
-}
-
 nav ul li .active {
   border-bottom: 2px solid transparent;
 }
