@@ -1,8 +1,14 @@
+#position{
+  position: fixed;
+  z-index: 999;
+}
+
 .dark-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/hero-alter.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+
   }
 
   #hero .container {
@@ -27,4 +33,5 @@
       transition: all .2s;
     }
   }
+
 
