@@ -31,7 +31,6 @@
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="estilos/main.css">
@@ -596,16 +595,14 @@
             <!--======= MIEMBRO 1=======-->
 
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <div data-aos="flip-left">
-                        <div class="team-item">
-                            <div class="item-image">
-                                <img src="./img/team-index/emi-index.png" alt="Emi">
-                            </div>
-                            <div class="item-meta">
-                                <h3 class="item-title text-center">Emi</h3>
-                                <h6 class="item-position text-center">GERENTE IT</h6>
-                            </div>
+                <div class="col-md-3 col-sm-6" data-aos="flip-right">
+                    <div class="team-item">
+                        <div class="item-image">
+                            <img src="./img/team-index/emi-index.png" alt="Emi">
+                        </div>
+                        <div class="item-meta">
+                            <h3 class="item-title text-center">Emi</h3>
+                            <h6 class="item-position text-center">GERENTE IT</h6>
                         </div>
                     </div>
                 </div>
@@ -613,39 +610,34 @@
 
                 <!--======= MIEMBRO 2=======-->
 
-                <div class="col-md-3 col-sm-6">
-                    <div data-aos="flip-left">
-                        <div class="team-item">
-                            <div class="item-image">
-                                <img src="./img/team-index/alejandro-index.png" alt="Alejandro">
-                            </div>
-                            <div class="item-meta">
-                                <h3 class="item-title text-center">Ale</h3>
-                                <h6 class="item-position text-center">JUNIOR IT</h6>
-                            </div>
+                <div class="col-md-3 col-sm-6" data-aos="flip-right">
+                    <div class="team-item">
+                        <div class="item-image">
+                            <img src="./img/team-index/alejandro-index.png" alt="Alejandro">
+                        </div>
+                        <div class="item-meta">
+                            <h3 class="item-title text-center">Ale</h3>
+                            <h6 class="item-position text-center">JUNIOR IT</h6>
                         </div>
                     </div>
                 </div>
 
                 <!--======= MIEMBRO 3=======-->
 
-                <div class="col-md-3 col-sm-6">
-                    <div data-aos="flip-left" >
-                        <div class="team-item">
-                            <div class="item-image">
-                                <img src="./img/team-index/kevin-index.jpg" alt="Kevin">
-                            </div>
-                            <div class="item-meta">
-                                <h3 class="item-title text-center">Kevin</h3>
-                                <h6 class="item-position text-center">Marketing</h6>
-                            </div>
+                <div class="col-md-3 col-sm-6" data-aos="flip-right">
+                    <div class="team-item">
+                        <div class="item-image">
+                            <img src="./img/team-index/kevin-index.jpg" alt="Kevin">
+                        </div>
+                        <div class="item-meta">
+                            <h3 class="item-title text-center">Kevin</h3>
+                            <h6 class="item-position text-center">Marketing</h6>
                         </div>
                     </div>
                 </div>
 
                 <!--==MIEMBRO 4==-->
-                <div class="col-md-3 col-sm-6">
-                    <div data-aos="flip-left">
+                <div class="col-md-3 col-sm-6" data-aos="flip-right">
                         <div class="team-item">
                             <div class="item-image">
                                 <img src="./img/team-index/oriana-index.jpg" alt="Ori">
@@ -655,14 +647,13 @@
                                 <h6 class="item-position text-center">Ventas</h6>
                             </div>
                         </div>
-                    </div>
                 </div>
 
-            <!--====== DIVISOR BLANCO =======-->
+                <!--====== DIVISOR BLANCO =======-->
 
-            <div class="intro">
-                <div class="divider bg-light mt-5"></div>
-            </div>
+                <div class="intro">
+                    <div class="divider bg-light mt-5"></div>
+                </div>
     </section>
 
     <!--========= FOOTER =========-->
@@ -782,9 +773,15 @@
 
     <!--====== AOS ======-->
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
-        AOS.init({ once: 'true'
-            });
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 2000 ,
+            once: 'true' ,
+            
+        });
     </script>
 
 </body>
