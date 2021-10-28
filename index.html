@@ -123,7 +123,7 @@
                     <div class="info-box py-5 px-4 bg-white">
                         <div class="icon-box"><i class="fas fa-plane fa-3x"></i></div>
                         <h3 class="mb-3">01. Destinos.</h3>
-                        <p>te aseguramos los mejores destinos para conocer. Selecciona el que más te guste y nosotros
+                        <p>Te aseguramos los mejores destinos para conocer. Selecciona el que más te guste y nosotros
                             nos encargamos.</p>
                     </div>
                 </div>
@@ -181,7 +181,7 @@
                 </div>
             </div>
 
-            <!--====== ESPAÑA ======-->
+            <!--====== DESTINO ESPAÑA ======-->
 
             <div class="row">
                 <div class="col-lg-4 col-sm-6 p-4">
@@ -230,7 +230,7 @@
                 </div>
 
 
-                <!--====== ITALIA ======-->
+                <!--====== DESTINO ITALIA ======-->
 
                 <div class="col-lg-4 col-sm-6 p-4">
                     <div class="destino-estilo">
@@ -277,7 +277,7 @@
 
 
 
-                <!--====== FRANCIA ======-->
+                <!--====== DESTINO FRANCIA ======-->
 
                 <div class="col-lg-4 col-sm-6 p-4">
                     <div class="destino-estilo">
@@ -324,7 +324,7 @@
                 </div>
 
 
-                <!--====== LONDRES ======-->
+                <!--====== DESTINO LONDRES ======-->
 
                 <div class="col-lg-4 col-sm-6 p-4">
                     <div class="destino-estilo">
@@ -370,7 +370,7 @@
                     </div>
                 </div>
 
-                <!--====== DESTINO 5 ======-->
+                <!--====== DESTINO GRECIA ======-->
 
                 <div class="col-lg-4 col-sm-6 p-4">
                     <div class="destino-estilo">
@@ -378,15 +378,45 @@
                         <div class="info-estilo d-flex justify-content-center">
                             <div>
                                 <h5>Grecia:</h5>
-                                <p>Oh, oh, no quedan asientos.</p>
-                                <p><i class="far fa-sad-tear fa-2x"></i></p>
-                                <button type="button" class="btn btn-light">Más información.</button>
+                                <div><i class="fas fa-globe-europe fa-3x py-4"></i></div>
+                                <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#grc-modal">Más
+                                    información.</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!--====== DESTINO 6 ======-->
+                <!--====== MODAL GRECIA ======-->
+
+                <div class="modal fade" id="grc-modal" tabindex="-1" aria-labelledby="modal-tittle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">.
+                        <div class="modal-content modal-bg text-light">
+                            <div class="modal-header">
+                                <h5 class="modal-title mx-auto" id="modal-title"></h5>
+                                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <div>
+                                    <p>Viaja hoy a Grecia por $85.299.-</p>
+                                    <p>El paquete incluye:</p>
+                                    <div class="pb-3">
+                                        <i class="fas fa-hotel fa-2x"></i>
+                                        <i class="fas fa-pizza-slice fa-2x"></i>
+                                        <i class="fas fa-plane fa-2x"></i>
+                                    </div>
+                                    <p>El paquete no incluye:</p>
+                                    <i class="fas fa-car fa-2x"></i>
+                                </div>
+                                <p class="fs-5">Promoción válida hasta el 29/11/2021 o hasta agotar pasajes.</p>
+                                <div class="divider bg-light"></div>
+                            </div>
+                            <p class="text-center py-4 fs-3">Somos turismo. <br> Somos World Travelers.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--====== DESTINO ALEMANIA ======-->
 
                 <div class="col-lg-4 col-sm-6 p-4">
                     <div class="destino-estilo">
@@ -394,14 +424,40 @@
                         <div class="info-estilo d-flex justify-content-center">
                             <div>
                                 <h5>Alemania:</h5>
-                                <p>Viaja a Alemania con un 10% OFF.</p>
-                                <p>incluye:</p>
-                                <div class="pb-3">
-                                    <i class="fas fa-hotel fa-2x"></i>
+                                <div><i class="fas fa-globe-europe fa-3x py-4"></i></div>
+                                <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#grm-modal">Más
+                                    información.</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--====== MODAL ALEMANIA ======-->
+
+                <div class="modal fade" id="grm-modal" tabindex="-1" aria-labelledby="modal-tittle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">.
+                        <div class="modal-content modal-bg text-light">
+                            <div class="modal-header">
+                                <h5 class="modal-title mx-auto" id="modal-title"></h5>
+                                <button type="button" class="btn-close bg-light" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <div>
+                                    <p>Viaja hoy a Londres por $115.499.-</p>
+                                    <p>El paquete incluye:</p>
+                                    <div class="pb-3">
+                                        <i class="fas fa-hotel fa-2x"></i>
+                                        <i class="fas fa-pizza-slice fa-2x"></i>
+                                    </div>
+                                    <p>El paquete no incluye:</p>
+                                    <i class="fas fa-plane fa-2x"></i>
                                     <i class="fas fa-car fa-2x"></i>
                                 </div>
-                                <button type="button" class="btn btn-light">Más información.</button>
+                                <p class="fs-5">Promoción válida hasta el 28/11/2021 o hasta agotar pasajes.</p>
+                                <div class="divider bg-light"></div>
                             </div>
+                            <p class="text-center py-4 fs-3">Somos turismo. <br> Somos World Travelers.</p>
                         </div>
                     </div>
                 </div>
