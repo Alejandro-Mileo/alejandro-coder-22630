@@ -1,0 +1,12 @@
+.modal-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-modal.jpg);
+    box-shadow: 0 5px 50px rgba(102, 27, 117, 0.966);
+    border-radius: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-bg{
+    background-image: linear-gradient(rgba(248, 248, 248, 0.8), rgba(0, 0, 0, 0.2));
+}
