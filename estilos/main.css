@@ -283,8 +283,8 @@ nav ul li .active:hover {
 .modal-bg {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../img/bg-modal.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-modal.jpg);
-  -webkit-box-shadow: 0 5px 50px rgba(102, 27, 117, 0.966);
-          box-shadow: 0 5px 50px rgba(102, 27, 117, 0.966);
+  -webkit-box-shadow: 0 5px 50px #ff0040;
+          box-shadow: 0 5px 50px #ff0040;
   border-radius: 5%;
   background-position: center;
   background-repeat: no-repeat;
@@ -292,8 +292,8 @@ nav ul li .active:hover {
 }
 
 .index-bg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(248, 248, 248, 0.8)), to(rgba(0, 0, 0, 0.2)));
-  background-image: linear-gradient(rgba(248, 248, 248, 0.8), rgba(0, 0, 0, 0.2));
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 251, 251, 0.8)), to(rgba(0, 0, 0, 0.8)));
+  background-image: linear-gradient(rgba(255, 251, 251, 0.8), rgba(0, 0, 0, 0.8));
 }
 
 .list-name {
