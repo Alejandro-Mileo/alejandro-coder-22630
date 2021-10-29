@@ -20,8 +20,8 @@
 /*======= Background para Modal =======*/
 
 .modal-bg{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-modal.jpg);
-    box-shadow: 0 5px 50px #ff0040;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../img/modal-3.jpg);
+    box-shadow: 0 5px 50px #80bacc;
     border-radius: 2%;
     background-position: center;
     background-repeat: no-repeat;
@@ -43,13 +43,13 @@
     background-size: cover;
 }
 .europa-background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background-europa.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/europa-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .america-background{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background_bahamas.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/america-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
