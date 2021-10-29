@@ -1,0 +1,86 @@
+/*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
+/*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
+/*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
+
+
+/*======= Background para Hero =======*/
+
+.dark-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/hero-alter.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*imagen Hero*/
+#hero .container {
+      height: 85vh;
+}
+
+
+/*======= Background para Modal =======*/
+
+.modal-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/bg-modal.jpg);
+    box-shadow: 0 5px 50px #ff0040;
+    border-radius: 2%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* === Al abrir un modal, el background del índex cambia con las propiedades rgba. ===*/
+.index-bg{
+    background-image: linear-gradient(rgba(255, 251, 251, 0.8), rgba(0, 0, 0, 0.8));
+}
+
+
+/*====== Imágenes y propiedades para los fondos de las secciones: Europa, América y Asia. ======*/
+
+.asia-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/asia-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.europa-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background-europa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.america-background{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/background_bahamas.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*====== Background para Sign Up ======*/
+
+  .signup-background {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/signup-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*====== Background para Login ======*/
+
+.background-login {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*====== Background para Contact ======*/
+
+.contact-background{
+    background-image: url(../img/contact-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

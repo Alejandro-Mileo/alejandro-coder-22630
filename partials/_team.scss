@@ -1,3 +1,5 @@
+/*===Propiedades para la sección del equipo en Footer.===*/
+
 .team-wrapper{
     padding: 60px 0;
 
@@ -8,7 +10,7 @@
 }
 .team-item{
     position: relative;
-    background-color: #424248;
+    background-color: $Gray;
     margin: 15px 5px;
     overflow: hidden;
     cursor: pointer;
@@ -26,12 +28,12 @@
     background: linear-gradient(rgba(0, 0, 0, 0.8));
 
     & h3{
-        color: #fff;
+        color: $White;
         font-size: 1.5rem;
     }
 
     & h6{
-        color: #ff0040;
+        color: $RojoHover;
         font-weight: bolder;
     }
 }
@@ -40,7 +42,7 @@
 }
 
 .item-image img{
-    border:  6px solid white;
+    border:  6px solid $White;
     border-radius: 50%;
     object-fit:fill;
 

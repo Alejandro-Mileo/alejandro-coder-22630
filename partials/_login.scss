@@ -1,10 +1,4 @@
-.background-login {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/login.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+/*=== Propiedades para Login=== */
   .login-form {
     padding: 300px 0;
   
@@ -33,5 +27,5 @@
   }
   .login-txt a{
     text-decoration: none !important;
-    color: #fff !important;
+    color: $White !important;
   }

@@ -1,38 +1,30 @@
+/*=== Propiedades para el Navbar ===*/
+
 #position{
   position: fixed;
   z-index: 999;
 }
 
-.dark-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(../img/hero-alter.jpg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-
-  }
-
-  #hero .container {
-    height: 85vh;
-  }
-  
-  
-  nav ul li .active {
+/*=== Barrita de color que se aplica en el nav. Home, Account, Hot Sale y Contact. ===*/  
+    nav ul li .active {
     border-bottom: 2px solid transparent;
   
     &:hover {
       border-bottom-color: $RojoHover;
       transition: 750ms;
     }
-  }
+}
 
   .list-name{
-    color: #fff !important;
+    color: $White;
     
     &:hover{
-      color: $RojoHover !important;
+      color: $RojoHover;
       transition: all .2s;
     }
-  }
+}
+
+/*=== Cambio de color a los bordes del menú hamburguesa. No me gustaba el gris ===*/
 
 .text-red{
   color: $RojoHover !important;

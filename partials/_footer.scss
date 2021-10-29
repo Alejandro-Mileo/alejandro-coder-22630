@@ -1,5 +1,7 @@
+/*=== Colores para Footer ===*/
+
 .list-name{
-    color: #fff !important;
+    color: $White !important;
     &:hover{
         transition: all .5s !important;
         color: $RojoHover !important;

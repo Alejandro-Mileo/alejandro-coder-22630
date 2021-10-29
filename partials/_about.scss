@@ -1,3 +1,5 @@
+/*Así armé la parte superior en el índex. Los 9 puntos: Destino, Precio, Etc. El Divider se utiliza varias veces en el proyecto, no solo en el índex.*/
+
 .divider{
     height: 2px;
     width: 55%;
@@ -7,11 +9,11 @@
 .icon-box{
     width: 80px;
     height: 80px;
-    background-color: #3a8878;
+    background-color: $Cyan;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 100px;
     margin: 0 auto 24px auto;
-    color: #fff;
+    color: $White;
 }
