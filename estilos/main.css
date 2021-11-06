@@ -79,6 +79,7 @@ nav ul li .active:hover {
   transition: all .2s;
 }
 
+/*Cambio de color rojo a las líneas de la hamburguesa*/
 .bar-color {
   background-color: #ff0040 !important;
 }
