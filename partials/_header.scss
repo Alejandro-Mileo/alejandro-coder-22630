@@ -28,6 +28,9 @@
 .bar-color{
   background-color: $RojoHover !important;
 }
+
+
+/*Propiedades para el cambio al menú hamburguesa*/
 .navbar-toggler {
   border: 0;
 }
@@ -44,7 +47,6 @@
   width: 30px;
   height: 3px;
   background-color: $RojoHover;
-
   display: block;
   transition: all 0.2s;
 }
