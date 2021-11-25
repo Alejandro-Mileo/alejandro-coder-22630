@@ -127,17 +127,17 @@
 //                                                   *                                                         *
 //                                                   ***********************************************************  
 
-let number = 0;
+// let number = 0;
 
-while (number <= 10){                                //En while siempre pregunta y después dispara.
-    console.log("while " + number);
-    number++;
-}
+// while (number <= 10){                                //En while siempre pregunta y después dispara.
+//     console.log("while " + number);
+//     number++;
+// }
 
-do{                                                 // en Do-while siempre dispara al menos una vez y después pregunta.
-    console.log("do-while " + number);
-    number++
-} while(number <= 13);
+// do{                                                 // en Do-while siempre dispara al menos una vez y después pregunta.
+//     console.log("do-while " + number);
+//     number++
+// } while(number <= 13);
 
 //                                                   ***********************************************************                                                                          
 //                                                   *                                                         *
@@ -157,10 +157,6 @@ do{                                                 // en Do-while siempre dispa
 // }
 
 
-// for (turn = 1; turn >=10; turn++);{
-//     let name = prompt("ingresa tu nombre y te asignaremos un turno");
-//     console.log("Solicitud de turno N°: " + turn);
-// }
 
 //                                                   ***********************************************************                                                                          
 //                                                   *                                                         *
