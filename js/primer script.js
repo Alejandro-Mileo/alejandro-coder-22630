@@ -1,10 +1,10 @@
-// ================================================================================================================
-//                                                                                                              ===                                                                                                           
-//                                                                                                              ===
-//                                 ******** EJERCICIO PRIMER CLASE    *******                                    ===                            
-//                                                                                                              ===
-//                                                                                                              ===
-// ================================================================================================================
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                               ******** EJERCICIO PRIMERA CLASE   *******                                                                                ===                            
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
 
 // let user_name = prompt("¡Hola! Nos encanta que nos visites. ¿Cómo te llamas?");
 // const msg = "Gracias por visitarnos, " + user_name;
@@ -14,13 +14,14 @@
 // alert(msg + reminder_msg);
 
 
-// ================================================================================================================
-//                                                                                                              ===                                                                                                           
-//                                                                                                              ===
-//                                ******** EJERCICIO SEGUNDA CLASE   *******                                    ===                            
-//                                                                                                              ===
-//                                                                                                              ===
-// ================================================================================================================
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                               ******** EJERCICIO SEGUNDA CLASE   *******                                                                                ===                            
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
 
 // ***********************************************************                                                                          
 //                                                         ===
@@ -31,17 +32,17 @@
 // ***********************************************************  
 
 
-let numeroUno = parseInt(prompt("ingresa el primer numero"));
-let numeroDos = parseInt(prompt("ingresa el segundo numero"));
+// let numeroUno = parseInt(prompt("ingresa el primer numero"));
+// let numeroDos = parseInt(prompt("ingresa el segundo numero"));
 
-if (numeroUno > numeroDos){
-    alert("el primer numero es mayor");
-} else if(numeroDos > numeroUno){
-    alert("el segundo numero es mayor");
-} 
-else{
-    alert("ambos numeros son iguales");
-}
+// if (numeroUno > numeroDos){
+//     alert("el primer numero es mayor");
+// } else if(numeroUno < numeroDos){
+//     alert("el segundo numero es mayor");
+// } 
+// else{
+//     alert("ambos numeros son iguales");
+// }
 
 // ***********************************************************                                                                          
 //                                                         ===
@@ -69,13 +70,13 @@ else{
 // }
 
 
-// ***********************************************************                                                                          
-//                                                         ===
-//                                                         === 
-//             EJERCICIO CONDICIONAL + OPERADORES          ===
-//                                                         ===
-//                                                         ===
-// ***********************************************************  
+//                                                   ***********************************************************                                                                          
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   *               EJERCICIO CONDICIONAL + OPERADOR          *
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   ***********************************************************  
 
 
 // let precioMilla = 0;
@@ -106,3 +107,102 @@ else{
 
 // alert("El precio final de tu vuelo es de: " + "$" + totalKms);
 // console.log ("El precio final de tu vuelo es de: " + "$" + totalKms);
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                               ******** EJERCICIO TERCERA CLASE  *******                                                                                 ===                            
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+
+
+//                                                   ***********************************************************                                                                          
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   *                    EJERCICIO WHILE + DO WHILE           *
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   ***********************************************************  
+
+let number = 0;
+
+while (number <= 10){                                //En while siempre pregunta y después dispara.
+    console.log("while " + number);
+    number++;
+}
+
+do{                                                 // en Do-while siempre dispara al menos una vez y después pregunta.
+    console.log("do-while " + number);
+    number++
+} while(number <= 13);
+
+//                                                   ***********************************************************                                                                          
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   *                      EJERCICIO FOR                      *
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   ***********************************************************  
+
+
+// for (initialize = 0; initialize <= 10; initialize++){
+//     console.log("\n"+ initialize);
+// }
+
+// for (initialize = 9; initialize >= 0; initialize--){
+//     console.log("\n"+ initialize);
+// }
+
+
+// for (turn = 1; turn >=10; turn++);{
+//     let name = prompt("ingresa tu nombre y te asignaremos un turno");
+//     console.log("Solicitud de turno N°: " + turn);
+// }
+
+//                                                   ***********************************************************                                                                          
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   *                      EJERCICIO SWITCH                   *
+//                                                   *                                                         *
+//                                                   *                                                         *
+//                                                   ***********************************************************  
+
+
+// let operation = prompt("Digita una operación a realizar: +, -, *, /");
+// let numberOne = parseInt(prompt("Digita el primer numero"));
+// let numberTwo = parseInt(prompt("Digita el segundo numero"));
+
+//     switch (operation) {
+//         case '+':
+            
+//             alert("El resultado es: " + (numberOne + numberTwo + "."));
+            
+//             break;
+    
+//         case "-":
+            
+//             alert("El resultado es: " + (numberOne - numberTwo + "."));
+    
+//             break;
+    
+//         case "*":
+            
+//             alert("El resultado es: " + (numberOne * numberTwo + "."));
+
+//             break;
+
+//         case "/":
+    
+//             alert("El resultado es: " + (numberOne / numberTwo + "."));
+    
+//             break;
+
+
+//         default:
+
+//             alert("Operación no válida. Ingresa un caracter válido :).");
+
+//     }
