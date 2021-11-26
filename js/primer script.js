@@ -1,10 +1,19 @@
 // ===========================================================================================================================================================================================
 //                                                                                                                                                                                         ===                                                                                                           
 //                                                                                                                                                                                         ===
-//                                                               ******** EJERCICIO PRIMERA CLASE   *******                                                                                ===                            
+//                                                                                      Desafío 1                                                                                          ===
+//                                                                                                                                                                                         ===
+//                                                                                  @version: v1.1.0                                                                                       ===
+//                                                                                                                                                                                         ===
+//                                                                                  @author: Alejandro Mileo                                                                               ===
+//                                                                                                                                                                                         ===
+//                                                                                  @fecha: 17/11/2021                                                                                     ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
 //                                                                                                                                                                                         ===
 //                                                                                                                                                                                         ===
 // ===========================================================================================================================================================================================
+
 
 // let user_name = prompt("¡Hola! Nos encanta que nos visites. ¿Cómo te llamas?");
 // const msg = "Gracias por visitarnos, " + user_name;
@@ -17,19 +26,27 @@
 // ===========================================================================================================================================================================================
 //                                                                                                                                                                                         ===                                                                                                           
 //                                                                                                                                                                                         ===
-//                                                               ******** EJERCICIO SEGUNDA CLASE   *******                                                                                ===                            
+//                                                                                      Desafío 2                                                                                          ===
+//                                                                                                                                                                                         ===
+//                                                                                  @version: v1.2.0                                                                                       ===
+//                                                                                                                                                                                         ===
+//                                                                                  @author: Alejandro Mileo                                                                               ===
+//                                                                                                                                                                                         ===
+//                                                                                  @fecha: 20/11/2021                                                                                     ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
 //                                                                                                                                                                                         ===
 //                                                                                                                                                                                         ===
 // ===========================================================================================================================================================================================
 
 
-// ***********************************************************                                                                          
-//                                                         ===
-//                                                         === 
-//                CONDICIONAL IF, ELSE IF Y ELSE           ===
-//                                                         ===
-//                                                         ===
-// ***********************************************************  
+//                                                                ************************************************************                                                                          
+//                                                                *                                                        ===
+//                                                                *                                                        === 
+//                                                                *               CONDICIONAL IF, ELSE IF Y ELSE           ===
+//                                                                *                                                        ===
+//                                                                *                                                        ===
+//                                                                ************************************************************  
 
 
 // let numeroUno = parseInt(prompt("ingresa el primer numero"));
@@ -44,13 +61,13 @@
 //     alert("ambos numeros son iguales");
 // }
 
-// ***********************************************************                                                                          
-//                                                         ===
-//                                                         === 
-//   RESULTADO NOTA PARCIAL + ALERT USANDO CONDICIONALES   ===
-//                                                         ===
-//                                                         ===
-// ***********************************************************  
+//                                                                ************************************************************                                                                          
+//                                                                *                                                        ===
+//                                                                *                                                        === 
+//                                                                *  RESULTADO NOTA PARCIAL + ALERT USANDO CONDICIONALES   ===
+//                                                                *                                                        ===
+//                                                                *                                                        ===
+//                                                                ************************************************************  
 
 // let numberOne = parseInt(prompt("ingresa tu primer nota parcial"));
 // let numberTwo  = parseInt(prompt("ingresa tu segunda nota parcial"));
@@ -70,13 +87,13 @@
 // }
 
 
-//                                                   ***********************************************************                                                                          
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   *               EJERCICIO CONDICIONAL + OPERADOR          *
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   ***********************************************************  
+//                                                                 ***********************************************************                                                                          
+//                                                                 *                                                         *
+//                                                                 *                                                         *
+//                                                                 *               EJERCICIO CONDICIONAL + OPERADOR          *
+//                                                                 *                                                         *
+//                                                                 *                                                         *
+//                                                                 ***********************************************************  
 
 
 // let precioMilla = 0;
@@ -111,7 +128,15 @@
 // ===========================================================================================================================================================================================
 //                                                                                                                                                                                         ===                                                                                                           
 //                                                                                                                                                                                         ===
-//                                                               ******** EJERCICIO TERCERA CLASE  *******                                                                                 ===                            
+//                                                                                      Desafío 3                                                                                          ===
+//                                                                                                                                                                                         ===
+//                                                                                  @version: v1.3.0                                                                                       ===
+//                                                                                                                                                                                         ===
+//                                                                                  @author: Alejandro Mileo                                                                               ===
+//                                                                                                                                                                                         ===
+//                                                                                  @fecha: 25/11/2021                                                                                     ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
 //                                                                                                                                                                                         ===
 //                                                                                                                                                                                         ===
 // ===========================================================================================================================================================================================
@@ -119,13 +144,13 @@
 
 
 
-//                                                   ***********************************************************                                                                          
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   *                    EJERCICIO WHILE + DO WHILE           *
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   ***********************************************************  
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *              EJERCICIO WHILE + DO WHILE                 *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              ***********************************************************  
 
 // let number = 0;
 
@@ -139,13 +164,13 @@
 //     number++
 // } while(number <= 13);
 
-//                                                   ***********************************************************                                                                          
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   *                      EJERCICIO FOR                      *
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   ***********************************************************  
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                      EJERCICIO FOR                      *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              ***********************************************************  
 
 
 // for (initialize = 0; initialize <= 10; initialize++){
@@ -158,47 +183,52 @@
 
 
 
-//                                                   ***********************************************************                                                                          
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   *                      EJERCICIO SWITCH                   *
-//                                                   *                                                         *
-//                                                   *                                                         *
-//                                                   ***********************************************************  
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                      EJERCICIO SWITCH                   *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              ***********************************************************  
 
 
-// let operation = prompt("Digita una operación a realizar: +, -, *, /");
-// let numberOne = parseInt(prompt("Digita el primer numero"));
-// let numberTwo = parseInt(prompt("Digita el segundo numero"));
+// El usuario elige una operación: suma, resta, multiplicación y división. Luego mediante prompts, el usuario ingresa dos números. Luego, elige una opción mediante Switch (case) 
+// Y se muetra al resultado. Si ingresa algo distinto, "default" muestra que no es un caracter válido//
 
-//     switch (operation) {
-//         case '+':
+
+
+let operation = prompt("Digita una operación a realizar: +, -, *, /");
+let numberOne = parseInt(prompt("Digita el primer numero"));
+let numberTwo = parseInt(prompt("Digita el segundo numero"));
+
+    switch (operation) {
+        case '+':
             
-//             alert("El resultado es: " + (numberOne + numberTwo + "."));
+            alert("El resultado es: " + (numberOne + numberTwo + "."));
             
-//             break;
+            break;
     
-//         case "-":
+        case "-":
             
-//             alert("El resultado es: " + (numberOne - numberTwo + "."));
+            alert("El resultado es: " + (numberOne - numberTwo + "."));
     
-//             break;
+            break;
     
-//         case "*":
+        case "*":
             
-//             alert("El resultado es: " + (numberOne * numberTwo + "."));
+            alert("El resultado es: " + (numberOne * numberTwo + "."));
 
-//             break;
+            break;
 
-//         case "/":
+        case "/":
     
-//             alert("El resultado es: " + (numberOne / numberTwo + "."));
+            alert("El resultado es: " + (numberOne / numberTwo + "."));
     
-//             break;
+            break;
 
 
-//         default:
+        default:
 
-//             alert("Operación no válida. Ingresa un caracter válido :).");
+            alert("Operación no válida. Ingresa un caracter válido :).");
 
-//     }
+    }
