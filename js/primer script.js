@@ -264,69 +264,69 @@
 
 
 
-let operation = prompt("¡Hola viajero! Nos encanta que hayas elegido viajar a Italia. El precio es de $140.000.- ¿Continuamos con la operación?").toLowerCase();
+// let operation = prompt("¡Hola viajero! Nos encanta que hayas elegido viajar a Italia. El precio es de $140.000.- ¿Continuamos con la operación?").toLowerCase();
 
-if (operation == "si"){
+// if (operation == "si"){
 
-    alert("¡Genial! Comencemos.");
+//     alert("¡Genial! Comencemos.");
 
-}
-else if( operation != "no" && operation !="si" && operation != ""){
+// }
+// else if( operation != "no" && operation !="si" && operation != ""){
 
-    alert("Opción no válida. Intenta de nuevo.");
+//     alert("Opción no válida. Intenta de nuevo.");
     
-    exit();
-}
-else{
+//     exit();
+// }
+// else{
 
-    alert("Parece que aún estás con dudas. No te preocupes, intentalo de nuevo más tarde :)");
+//     alert("Parece que aún estás con dudas. No te preocupes, intentalo de nuevo más tarde :)");
     
-    exit();
+//     exit();
     
-}
+// }
 
-let decition = prompt("Sabemos que viajar es un placer, así que queremos financiar tu viaje en 3 y 6 cuotas sin interés. Y 12 y 18 cuotas con un interés de tan sólo el 5%, ¿En cuántas cuotas te gustaría financiar tu viaje?").toLowerCase();
+// let decition = prompt("Sabemos que viajar es un placer, así que queremos financiar tu viaje en 3 y 6 cuotas sin interés. Y 12 y 18 cuotas con un interés de tan sólo el 5%, ¿En cuántas cuotas te gustaría financiar tu viaje?").toLowerCase();
 
-let firstOption = parseFloat(140.000/3).toFixed(3); //la operación no agrega interés.
+// let firstOption = parseFloat(140.000/3).toFixed(3); //la operación no agrega interés.
 
-let secondOption = parseFloat(140.000/6).toFixed(3); //la operación no agrega interés.
+// let secondOption = parseFloat(140.000/6).toFixed(3); //la operación no agrega interés.
 
-let thirdOption = parseFloat(((140.000) + (140.000 * 5 / 100)) / 12).toFixed(3); // la operación agrega 5% de interés y se divide el total en 12 cuotas. 
+// let thirdOption = parseFloat(((140.000) + (140.000 * 5 / 100)) / 12).toFixed(3); // la operación agrega 5% de interés y se divide el total en 12 cuotas. 
 
-let fourthOption = parseFloat(((140.000) + (140.000 * 5 / 100)) / 18).toFixed(3);  // la operación agrega 5% de interés y se divide el total en 18 cuotas.
+// let fourthOption = parseFloat(((140.000) + (140.000 * 5 / 100)) / 18).toFixed(3);  // la operación agrega 5% de interés y se divide el total en 18 cuotas.
 
-switch (decition) {
+// switch (decition) {
 
-            case '3':
+//             case '3':
                 
-            alert(`¡Excelente idea! El valor de tus cuotas es de: $${firstOption} sin interés. Que tengas un buen viaje :)`);
+//             alert(`¡Excelente idea! El valor de tus cuotas es de: $${firstOption} sin interés. Que tengas un buen viaje :)`);
                 
-            break;
+//             break;
 
-            case '6':
+//             case '6':
                 
-                alert(`¡Excelente idea! El valor de tus cuotas es de: $${secondOption} sin interés. Que tengas un buen viaje :)`);
+//                 alert(`¡Excelente idea! El valor de tus cuotas es de: $${secondOption} sin interés. Que tengas un buen viaje :)`);
                 
-            break;
+//             break;
 
-            case '12':
+//             case '12':
                 
-                alert(`¡Excelente idea! El valor de tus cuotas es de: $${thirdOption} sin interés. Que tengas un buen viaje :)`);
+//                 alert(`¡Excelente idea! El valor de tus cuotas es de: $${thirdOption} sin interés. Que tengas un buen viaje :)`);
                 
-            break;
+//             break;
     
-            case '18':
+//             case '18':
                 
-                alert(`¡Excelente idea! El valor de tus cuotas es de: $${fourthOption} sin interés. Que tengas un buen viaje :)`);
+//                 alert(`¡Excelente idea! El valor de tus cuotas es de: $${fourthOption} sin interés. Que tengas un buen viaje :)`);
                     
-            break;
+//             break;
 
 
-            default:
+//             default:
     
-                alert("Parece que no contamos con esa opción de cuota. Recordá que podrás elegir entre 3, 6, 12 y 18 cuotas.");
+//                 alert("Parece que no contamos con esa opción de cuota. Recordá que podrás elegir entre 3, 6, 12 y 18 cuotas.");
     
-}
+// }
 
            //PD: los precios difieren de cualquier realidad. En Argentina es imposible viajar por ese precio :((       
 
@@ -339,11 +339,11 @@ switch (decition) {
     //                                                                                                                                                                                         ===
     //                                                                              Desafío 4.5  (complementario)                                                                              ===
     //                                                                                                                                                                                         ===
-    //                                                                           @version: v1.4.5.0                                                                                            ===
+    //                                                                           @version: v1.4a.0                                                                                            ===
     //                                                                                                                                                                                         ===
     //                                                                           @author: Alejandro Mileo                                                                                      ===
     //                                                                                                                                                                                         ===
-    //                                                                           @fecha: 23/11/2021                                                                                            ===
+    //                                                                           @fecha: 28/11/2021                                                                                            ===
     //                                                                                                                                                                                         ===                         
     //                                                                                                                                                                                         ===      
     //                                                                                                                                                                                         ===
@@ -357,32 +357,61 @@ switch (decition) {
 //                                                              *                                                         *
 //                                                              *                  EJERCICIO FUNCIONES                    *
 //                                                              *                                                         *
-//                                                              *               (2/3 todavía no lo terminé)               *
+//                                                              *                                                         *
 //                                                              ***********************************************************  
+
+
+//Función de saludo
+
+
+function mensajeBienvenida() {
+    console.log("¡Bienvenidos a World Travelers!")
+}
+mensajeBienvenida();
 
 
 //función para calcular el interés en la compra. En este caso el valor es de 140k (Italia). Si quiero cambiar el destino e interés, modifico los valores en consola
 
-// function calcularInteres (firstOperation, secondOperation, thirdOperation){
+function calcularInteres (firstOperation, secondOperation, thirdOperation){
 
-//     let taxes = (firstOperation * secondOperation / thirdOperation)
+    let taxes = (firstOperation * secondOperation / thirdOperation);   //Variable local
 
-//     return `El interés agregado a la compra es de $${taxes} pesos.`;
-// }
-// console.log(calcularInteres(140000, 5, 100));
+    return `El interés agregado a la compra es de $${taxes} pesos.`;
+}
+console.log(calcularInteres(140000, 5, 100));
+console.log(calcularInteres(123547, 10, 100));
 
 
 
 //función para saber el descuento que se aplica al viaje. A diferencia de la función anterior, con esta calculo el descuento en base al valor del viaje (italia), si quiero cambiar el vuelo, reemplazo valores en la consola.
 
-// const discount = function(countryPrice, percentage){
+const discount = function(countryPrice, percentage){
 
-//     const newPrice = countryPrice - (countryPrice * percentage / 100);
+    const newPrice = countryPrice - (countryPrice * percentage / 100);
 
-//     return `el precio en el viaje es de $${newPrice} pesos.`
-// }
-// console.log(discount(140000, 5));
+    return `el precio final de tu viaje es de $${newPrice} pesos.`
+}
+console.log(discount(140000, 5));
+console.log(discount(1000, 10));
 
 
 
+//función para saber si el usuario puede viajar a X destino o no.
 
+let currency = parseInt(prompt("digite su saldo en cuenta"));  //variable global
+
+function balance(){
+
+if (currency <= 1000){      
+
+    alert(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`);   
+
+    console.log(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`); 
+}
+else{
+    alert(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
+    console.log(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
+}
+}
+
+balance();
