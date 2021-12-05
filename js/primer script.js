@@ -334,21 +334,21 @@
 
 
 
-    // ===========================================================================================================================================================================================
-    //                                                                                                                                                                                         ===                                                                                                           
-    //                                                                                                                                                                                         ===
-    //                                                                              Desafío 4.5  (complementario)                                                                              ===
-    //                                                                                                                                                                                         ===
-    //                                                                           @version: v1.4a.0                                                                                            ===
-    //                                                                                                                                                                                         ===
-    //                                                                           @author: Alejandro Mileo                                                                                      ===
-    //                                                                                                                                                                                         ===
-    //                                                                           @fecha: 28/11/2021                                                                                            ===
-    //                                                                                                                                                                                         ===                         
-    //                                                                                                                                                                                         ===      
-    //                                                                                                                                                                                         ===
-    //                                                                                                                                                                                         ===
-    // ===========================================================================================================================================================================================
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                           Desafío 4.5  (complementario)                                                                                 ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.4a.0                                                                                             ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 28/11/2021                                                                                            ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
     
 
 
@@ -415,3 +415,59 @@ else{
 }
 
 balance();
+
+
+
+
+
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                           Desafío    5                                                                                                  ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.5.0                                                                                              ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 4/12/2021                                                                                             ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                  EJERCICIO OBJETO + FUNCIÓN             *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              ***********************************************************  
+
+
+
+
+class Europa {                                                      // Creamos y declaramos el nombre de nuestra clase. Hay que recordar que la clase se escribe con mayúscula. class Europa.
+    constructor(destino, precio, fechaSalida, fechaRegreso) {      // Dentro del constructor declaramos los parámetros que luego van a poder ser reescritos. En este caso tenemos: destino, precio, fechaSalida y fechaRegreso. (Si quisiera, pudiera agregar más)
+        this.destino = destino;                                   // Hacemos uso del "this" y lo "conectamos" con el atributo, que en este caso sería "destino". Se debe igualar a un valor, y es recomendable ponerle el mismo nombre. Entonces quedaría: this.destino = destino; (Podría cambiarlo a this.edad = edad. this.altura = altura, etc.)
+        this.precio = precio;                                    // aplica el mismo concepto que la línea 141.
+        this.fechaSalida = fechaSalida;                         // aplica el mismo concepto que la línea 141.
+        this.fechaRegreso = fechaRegreso;                      // aplica el mismo concepto que la línea 141. 
+    }
+    salida = () => {                                               // Creamos una función anónima.
+        console.log(`Tu viaje con destino a ${this.destino} fue confirmado. Deberás abordar el avión el día ${this.fechaSalida} 12. El valor final es de $${this.precio}, buen viaje!`) // La función imprime el mensaje en consola. Tiene uso de backticks (Alt + 96) y mediante el "this" varian los atributos, x ej: ${this.destino}. destino = Alemnia o Italia, según prefiera. (Ver línea 152 o 154)
+    }
+    
+}
+
+const destinoUno = new Europa("Italia", "130.000 pesos", "Lunes", "Sábado"); // Toma valores en base a la clase Europa, (línea 165) y reescribe por los valores que puse en la línea 152 ("Italia", "130.000 pesos", etc.)
+
+const destinoDos = new Europa("Alemania", "150.000 pesos", "Martes", "domingo");  // Toma valores en base a la clase Europa, (línea 165) y reescribe por los valores que puse en la línea 154 ("alemania", "150.000 pesos", etc.)
+
+console.log(destinoUno, destinoDos); // Imprime en consola los valores de destinoUno y destinoDos, es decir Italia, 130k pesos, Lunes y Sábado (también los valores de destinoDos). Se pueden agregar más si quisiera, pero se deben declarar en la función "original" con su constructor (Destino, Precio, fechaSalida, fechaRegreso, y así podría continuar si agregase más. Ver línea 140)
+
+destinoUno.salida();  //La función SALIDA va a tomar los parámetros en referencia a destinoUno y va a imprimir sus valores con el console.log de la línea 173.
+
+destinoDos.salida(); //La función SALIDA va a tomar los parámetros en referencia a destinoDos y va a imprimir sus valores con el console.log de la línea 173.

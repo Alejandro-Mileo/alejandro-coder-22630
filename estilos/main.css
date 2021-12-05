@@ -84,6 +84,7 @@ nav ul li .active:hover {
   background-color: #ff0040 !important;
 }
 
+/*Propiedades para el cambio al menú hamburguesa*/
 .navbar-toggler {
   border: 0;
 }
