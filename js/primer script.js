@@ -364,57 +364,57 @@
 //Función de saludo
 
 
-function mensajeBienvenida() {
-    console.log("¡Bienvenidos a World Travelers!")
-}
-mensajeBienvenida();
+// function mensajeBienvenida() {
+//     console.log("¡Bienvenidos a World Travelers!")
+// }
+// mensajeBienvenida();
 
 
 //función para calcular el interés en la compra. En este caso el valor es de 140k (Italia). Si quiero cambiar el destino e interés, modifico los valores en consola
 
-function calcularInteres (firstOperation, secondOperation, thirdOperation){
+// function calcularInteres (firstOperation, secondOperation, thirdOperation){
 
-    let taxes = (firstOperation * secondOperation / thirdOperation);   //Variable local
+//     let taxes = (firstOperation * secondOperation / thirdOperation);   //Variable local
 
-    return `El interés agregado a la compra es de $${taxes} pesos.`;
-}
-console.log(calcularInteres(140000, 5, 100));
-console.log(calcularInteres(123547, 10, 100));
+//     return `El interés agregado a la compra es de $${taxes} pesos.`;
+// }
+// console.log(calcularInteres(140000, 5, 100));
+// console.log(calcularInteres(123547, 10, 100));
 
 
 
 //función para saber el descuento que se aplica al viaje. A diferencia de la función anterior, con esta calculo el descuento en base al valor del viaje (italia), si quiero cambiar el vuelo, reemplazo valores en la consola.
 
-const discount = function(countryPrice, percentage){
+// const discount = function(countryPrice, percentage){
 
-    const newPrice = countryPrice - (countryPrice * percentage / 100);
+//     const newPrice = countryPrice - (countryPrice * percentage / 100);
 
-    return `el precio final de tu viaje es de $${newPrice} pesos.`
-}
-console.log(discount(140000, 5));
-console.log(discount(1000, 10));
+//     return `el precio final de tu viaje es de $${newPrice} pesos.`
+// }
+// console.log(discount(140000, 5));
+// console.log(discount(1000, 10));
 
 
 
 //función para saber si el usuario puede viajar a X destino o no.
 
-let currency = parseInt(prompt("digite su saldo en cuenta"));  //variable global
+// let currency = parseInt(prompt("digite su saldo en cuenta"));  //variable global
 
-function balance(){
+// function balance(){
 
-if (currency <= 1000){      
+// if (currency <= 1000){      
 
-    alert(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`);   
+//     alert(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`);   
 
-    console.log(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`); 
-}
-else{
-    alert(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
-    console.log(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
-}
-}
+//     console.log(`Lo sentimos, pero tu saldo es de $${currency} y no contamos con destinos a ese precio`); 
+// }
+// else{
+//     alert(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
+//     console.log(`Su saldo actual es de: $${currency}. Puede viajar a Brasil, Estados Unidos, Canadá, Alemania, Rusia, Italia y España`);
+// }
+// }
 
-balance();
+// balance();
 
 
 
@@ -449,24 +449,259 @@ balance();
 
 
 
-class Europa {                                                     
-    constructor(destino, precio, fechaSalida, fechaRegreso) {     
-        this.destino = destino;                                    
-        this.fechaSalida = fechaSalida;                        
-        this.fechaRegreso = fechaRegreso;                      
-    }
-    salida = () => {                                              
-        console.log(`Tu viaje con destino a ${this.destino} fue confirmado. Deberás abordar el avión el día ${this.fechaSalida} 12. El valor final es de $${this.precio}, buen viaje!`) // La función imprime el mensaje en consola. Tiene uso de backticks (Alt + 96) y mediante el "this" varian los atributos, x ej: ${this.destino}. destino = Alemnia o Italia, según prefiera. (Ver línea 152 o 154)
-    }
+// class Europa {                                                     
+//     constructor(destino, precio, fechaSalida, fechaRegreso) {     
+//         this.destino = destino;
+//         this.precio = precio;                                    
+//         this.fechaSalida = fechaSalida;                        
+//         this.fechaRegreso = fechaRegreso;                      
+//     }
+//     salida = () => {                                              
+//         console.log(`Tu viaje con destino a ${this.destino} fue confirmado. Deberás abordar el avión el día ${this.fechaSalida} 12. El valor final es de $${this.precio}, buen viaje!`) // La función imprime el mensaje en consola. Tiene uso de backticks (Alt + 96) y mediante el "this" varian los atributos, x ej: ${this.destino}. destino = Alemnia o Italia, según prefiera. (Ver línea 152 o 154)
+//     }
     
+// }
+
+// const destinoUno = new Europa("Italia", "130.000 pesos", "Lunes", "Sábado"); 
+
+// const destinoDos = new Europa("Alemania", "150.000 pesos", "Martes", "domingo"); 
+
+// console.log(destinoUno, destinoDos);
+
+// destinoUno.salida();  
+
+// destinoDos.salida(); 
+
+
+
+
+// class Canciones {
+//     constructor(nombre, artista, genero){
+//         this.nombre = nombre;
+//         this.artista = artista;
+//         this.genero = genero;
+//     }
+//     cancion = () =>{
+//         console.log(`reproduciendo: ${this.nombre} - ${this.artista} - ${this.genero}`)
+//     }
+// }
+
+// const tema = new Canciones ("castle of glass", "linkin park", "nu-metal");
+// const temaDos = new Canciones ("heavy", "linkin park", "nu-metal");
+
+
+// tema.cancion();
+// temaDos.cancion();
+
+
+
+
+// class Pasajes {
+//     constructor (precio, destino, descuento){
+//         this.precio = precio;
+//         this.destino = destino;
+//         this.descuento = descuento;
+//     }
+//     resultado = () =>{
+//         console.log(`Detalles de compra:\nDestino: ${this.destino}. Precio: ${this.precio}. Descuento ${this.descuento}`);
+//     }
+// }
+
+// resultadoPasajes = new Pasajes ("5000", "Italia", "0");
+// resultadoPasajes.resultado();
+
+
+
+
+
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                           Desafío    6                                                                                                  ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.6.0                                                                                              ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 7/12/2021                                                                                             ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+
+
+
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                     EJERCICIO ARRAY                     *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *********************************************************** 
+
+
+// const europa = ["Alemania", "Rusia", "Italia", "Grecia", "España"];
+// const europaNuevo = ["Suiza", "Noruega"]
+// let europaTotal;
+// let europaRecorte;
+
+// //
+
+// console.log(europa.length);
+// console.log(europa.join(" - "));
+
+// //
+
+// europa.forEach (pais => {
+//     console.log(`El destino: ${pais}. Está incluído en el paquete.`)
+// })
+
+// //
+
+// europa.push("portugal");
+// console.log(europa);
+
+// //
+
+// europaTotal = europa.concat(europaNuevo);
+// console.log(europaTotal);
+
+// //
+
+// europaRecorte = europa.slice(0, 2);
+// console.log (europaRecorte);
+
+// //
+
+// const europaDestino = ["Grecia", "Italia", "Suecia"];
+// const europaPrecio = [10, 30, 50];
+// const resultadoEuropa = [...europaDestino, ...europaPrecio];
+
+// console.log(resultadoEuropa)
+
+
+
+// ARRAY DE OBJETOS:
+
+
+// const destinos = [
+//     { destino: "suiza", precio: "150k", fechaSalida: "17/12", fechaVuelta: "5/1"},
+//     { destino: "irlanda", precio: "130k", fechaSalida: "26/12", fechaVuelta: "15/1"},
+//     { destino: "alemania", precio: "1550k", fechaSalida: "30/12", fechaVuelta: "25/1", cantidad: "1000"},
+//     { destino: "españa", precio: "132k", fechaSalida: "14/1", fechaVuelta: "6/2"},
+// ]
+
+// for (const destino of destinos){
+//     console.log(destino.precio);
+// }
+
+// FIND
+
+// console.log(destinos.find(destino => destino.precio === "132k"));    // find muestra un único objeto. Si hay 2 iguales, va a mostrar al primero que encuentre
+
+// FILTER
+
+// console.log(destinos.filter(destino => destino.precio === "132k")); // filter muestra al array entero
+
+// console.log(destinos
+// .filter(destino => destino.destino === "alemania")
+// .filter(destino => destino.cantidad === 1000)
+// .filter(destino => destino.fechaSalida === "30/12")); // Más de un filtro.
+
+
+// destinoYprecio = destinos.map(vuelos =>{
+//     return{destino: vuelos.destino, precio: vuelos.precio, fechaSalida: vuelos.fechaSalida}
+// });
+// console.log(destinoYprecio);
+
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                           Desafío   6a  complementario.                                                                                 ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.6a.0                                                                                             ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 7/12/2021                                                                                             ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                     EJERCICIO SORT                      *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *********************************************************** 
+
+
+// const destinosEuropa = ["Grecia", "Italia", "Noruega", "Alemania", "Francia"];
+
+// destinosEuropa.sort();
+// console.log(destinosEuropa);
+
+// destinosEuropa.reverse();
+// console.log(destinosEuropa);
+
+// const preciosEuropa = ["100", "10", "3000", "55"];
+
+// preciosEuropa.sort(function(a,b)
+//     {return a - b}
+// )
+// console.log(preciosEuropa);
+
+// preciosEuropa.sort(function(a,b)
+//     {return b - a}
+// )
+// console.log(preciosEuropa);
+
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                           Desafío   Primera Entrega                                                                                     ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.6a.0                                                                                             ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 8/12/2021                                                                                             ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+//                                                              ***********************************************************                                                                          
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *                Primer interacción html + js             *
+//                                                              *                                                         *
+//                                                              *                                                         *
+//                                                              *********************************************************** 
+
+
+const listaPrecios = [1, 2, 3, 4 ,5];
+
+function sortMajor() {
+    listaPrecios.sort(function(a,b)
+    {return a - b});
+    document.getElementById("show").innerHTML = listaPrecios;
 }
 
-const destinoUno = new Europa("Italia", "130.000 pesos", "Lunes", "Sábado"); 
-
-const destinoDos = new Europa("Alemania", "150.000 pesos", "Martes", "domingo"); 
-
-console.log(destinoUno, destinoDos)
-
-destinoUno.salida();  
-
-destinoDos.salida(); 
+function sortMinor (){
+    listaPrecios.sort(function(a,b)
+    {return b - a});
+    document.getElementById("show").innerHTML = listaPrecios;
+}

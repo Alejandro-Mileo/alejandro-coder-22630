@@ -410,4 +410,35 @@ nav ul li .active:hover {
 .list-title {
   color: #ff0040;
 }
+
+.containerSort {
+  background-color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.containerSort h1 {
+  padding: 10rem;
+}
+
+.containerSort button {
+  font-size: 2rem;
+  margin: 3rem;
+}
+
+#show {
+  color: black;
+  font-size: 3rem;
+}
 /*# sourceMappingURL=main.css.map */

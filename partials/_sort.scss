@@ -1,0 +1,21 @@
+.containerSort{
+    background-color: red;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSort h1{
+    padding: 10rem;
+}
+
+.containerSort button{
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+#show{
+    color: black;
+    font-size: 3rem;
+}
