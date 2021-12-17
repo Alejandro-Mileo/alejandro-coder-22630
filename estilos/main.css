@@ -446,8 +446,8 @@ nav ul li .active:hover {
   font-size: 3rem;
 }
 
-#containerBackground {
-  background-color: rebeccapurple;
-  height: 100vh;
+.textoVerde {
+  color: #9ee73f;
+  font-size: 2em;
 }
 /*# sourceMappingURL=main.css.map */

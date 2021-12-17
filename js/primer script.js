@@ -706,3 +706,91 @@ function sortMinor (){
     document.getElementById("show").innerHTML = listaPrecios;
 }
 
+
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                               Desafío DOM                                                                                               ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.7.0                                                                                              ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 17/12/2021                                                                                            ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
+
+
+
+
+
+
+// ejercicio usando backticks.
+
+let comunicado = "";
+const precios = [
+    "100",
+    "200",
+    "300",
+    "400"
+]
+
+precios.forEach(listadoPrecios);
+document.getElementById("listaPaises").innerHTML = comunicado;
+
+function listadoPrecios (index, item){
+    comunicado += `${item}: ${index}. <br>`
+}
+
+// ejercicio concatenado sin backticks.
+
+let paises = "";
+const listaPaises = ["Suiza", "Suecia", "Portugal"];
+
+listaPaises.forEach(cadaPais);
+document.getElementById("listaPais").innerHTML = paises;
+
+function cadaPais (item, index){
+    paises += index + ":" + item +"<br>";
+}
+
+
+// ejercicio de suma de valores dentro de un array.
+
+let sumar = 0;
+const valores = [100, 200, 300, 500, 1];
+valores.forEach(totalValores)
+
+document.getElementById("resultado").innerHTML = sumar;
+
+function totalValores (valor){
+    sumar += valor;
+}
+
+// ejercicio de multiplicación de valores dentro de un array.
+
+const numero = [1, 5, 10, 20, 50];
+
+numero.forEach(numerosRecorridos);
+document.getElementById("numeros").innerHTML = numero;
+
+function numerosRecorridos (item, posicion, multiplica){
+    multiplica[posicion] = item * 10;
+}
+
+
+// añadir html + css con JS.
+
+function textoColor() {
+
+    let texto = document.createElement("h1");
+
+    texto.innerHTML ="Vo so loco viteh";
+    texto.classList.add("textoVerde");
+
+    document.getElementById("customDiv").appendChild(texto);
+    
+}
