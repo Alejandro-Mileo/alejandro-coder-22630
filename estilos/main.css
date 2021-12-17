@@ -153,6 +153,10 @@ nav ul li .active:hover {
   border: 0;
 }
 
+.list-title-blue {
+  color: #1d1dcc;
+}
+
 /*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
 /*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
 /*====== BACKGROUNDS. CADA UNO ESTÁ COMENTADO SEGÚN SU SECCIÓN CORRESPONDIENTE ======*/
@@ -440,5 +444,10 @@ nav ul li .active:hover {
 #show {
   color: black;
   font-size: 3rem;
+}
+
+#containerBackground {
+  background-color: rebeccapurple;
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */

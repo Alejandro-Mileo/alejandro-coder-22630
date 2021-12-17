@@ -705,3 +705,4 @@ function sortMinor (){
     {return b - a});
     document.getElementById("show").innerHTML = listaPrecios;
 }
+
