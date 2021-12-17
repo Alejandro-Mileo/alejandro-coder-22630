@@ -692,19 +692,19 @@
 //                                                              *********************************************************** 
 
 
-const listaPrecios = [1, 2, 3, 4 ,5];
+// const listaPrecios = [1, 2, 3, 4 ,5];
 
-function sortMajor() {
-    listaPrecios.sort(function(a,b)
-    {return a - b});
-    document.getElementById("show").innerHTML = listaPrecios;
-}
+// function sortMajor() {
+//     listaPrecios.sort(function(a,b)
+//     {return a - b});
+//     document.getElementById("show").innerHTML = listaPrecios;
+// }
 
-function sortMinor (){
-    listaPrecios.sort(function(a,b)
-    {return b - a});
-    document.getElementById("show").innerHTML = listaPrecios;
-}
+// function sortMinor (){
+//     listaPrecios.sort(function(a,b)
+//     {return b - a});
+//     document.getElementById("show").innerHTML = listaPrecios;
+// }
 
 
 // ===========================================================================================================================================================================================
@@ -730,67 +730,109 @@ function sortMinor (){
 
 // ejercicio usando backticks.
 
-let comunicado = "";
-const precios = [
-    "100",
-    "200",
-    "300",
-    "400"
-]
+// let comunicado = "";
+// const precios = [
+//     "100",
+//     "200",
+//     "300",
+//     "400"
+// ]
 
-precios.forEach(listadoPrecios);
-document.getElementById("listaPaises").innerHTML = comunicado;
+// precios.forEach(listadoPrecios);
+// document.getElementById("listaPaises").innerHTML = comunicado;
 
-function listadoPrecios (index, item){
-    comunicado += `${item}: ${index}. <br>`
-}
+// function listadoPrecios (index, item){
+//     comunicado += `${item}: ${index}. <br>`
+// }
 
 // ejercicio concatenado sin backticks.
 
-let paises = "";
-const listaPaises = ["Suiza", "Suecia", "Portugal"];
+// let paises = "";
+// const listaPaises = ["Suiza", "Suecia", "Portugal"];
 
-listaPaises.forEach(cadaPais);
-document.getElementById("listaPais").innerHTML = paises;
+// listaPaises.forEach(cadaPais);
+// document.getElementById("listaPais").innerHTML = paises;
 
-function cadaPais (item, index){
-    paises += index + ":" + item +"<br>";
-}
+// function cadaPais (item, index){
+//     paises += index + ":" + item +"<br>";
+// }
 
 
 // ejercicio de suma de valores dentro de un array.
 
-let sumar = 0;
-const valores = [100, 200, 300, 500, 1];
-valores.forEach(totalValores)
+// let sumar = 0;
+// const valores = [100, 200, 300, 500, 1];
+// valores.forEach(totalValores)
 
-document.getElementById("resultado").innerHTML = sumar;
+// document.getElementById("resultado").innerHTML = sumar;
 
-function totalValores (valor){
-    sumar += valor;
-}
+// function totalValores (valor){
+//     sumar += valor;
+// }
 
 // ejercicio de multiplicación de valores dentro de un array.
 
-const numero = [1, 5, 10, 20, 50];
+// const numero = [1, 5, 10, 20, 50];
 
-numero.forEach(numerosRecorridos);
-document.getElementById("numeros").innerHTML = numero;
+// numero.forEach(numerosRecorridos);
+// document.getElementById("numeros").innerHTML = numero;
 
-function numerosRecorridos (item, posicion, multiplica){
-    multiplica[posicion] = item * 10;
-}
+// function numerosRecorridos (item, posicion, multiplica){
+//     multiplica[posicion] = item * 10;
+// }
 
 
 // añadir html + css con JS.
 
-function textoColor() {
+// function textoColor() {
 
-    let texto = document.createElement("h1");
+//     let texto = document.createElement("h1");
 
-    texto.innerHTML ="Vo so loco viteh";
-    texto.classList.add("textoVerde");
+//     texto.innerHTML ="Vo so loco viteh";
+//     texto.classList.add("textoVerde");
 
-    document.getElementById("customDiv").appendChild(texto);
+//     document.getElementById("customDiv").appendChild(texto);
     
+// }
+
+
+
+
+
+// let input1 = document.getElementById("username");   // este id va a usar de referencia de input
+// let output = document.getElementById("outputForm"); // este id va a usarse para el output
+
+// input1.onkeyup = () => {
+//     input1.classList.add("textForm");             // le agrego CSS al output
+//     outputForm.innerHTML = ("adiós");            //  mensaje de output
+// }
+
+// input1.onkeydown = () => {
+//     input1.classList.add("textForm");          // Le agrego CSS al output
+//     outputForm.innerHTML = ("hola");          //  mensaje de output
+// }
+
+
+
+let login = document.getElementById("loginAccess");
+let output = document.getElementById("outputForm");
+
+login.addEventListener("click", customForm);
+
+function customForm(e){
+    e.preventDefault();
+    let username = document.getElementById("username").value;
+    output.textContent = `Bienvenido ${username}`;
 }
+
+
+// let msg = document.getElementById("btnwt");               // revisar. No funciona con el formulario. (Revisar código del formulario)
+// let output2 = document.getElementById("output2");
+
+// msg.addEventListener("submit", msgForm);
+
+// function msgForm (e){
+//     e.preventDefault();
+//     let wtName = document.getElementById("wtName1").value;
+//     output2.textContent = `Formulario enviado con éxito. Pronto nos pondremos en contacto, ${wtName}`
+// }

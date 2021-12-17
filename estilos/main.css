@@ -51,6 +51,12 @@ html {
   border-color: #ced4da !important;
 }
 
+.textForm1 {
+  color: #74e22b;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
 /*=== Uso de Variables de colores=== */
 /*=== Propiedades para el Navbar ===*/
 #position {
