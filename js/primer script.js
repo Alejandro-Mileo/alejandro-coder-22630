@@ -812,7 +812,21 @@
 //     outputForm.innerHTML = ("hola");          //  mensaje de output
 // }
 
-
+// ===========================================================================================================================================================================================
+//                                                                                                                                                                                         ===                                                                                                           
+//                                                                                                                                                                                         ===
+//                                                                               Desafío EVENTOS                                                                                           ===
+//                                                                                                                                                                                         ===
+//                                                                           @version: v1.8.0                                                                                              ===
+//                                                                                                                                                                                         ===
+//                                                                           @author: Alejandro Mileo                                                                                      ===
+//                                                                                                                                                                                         ===
+//                                                                           @fecha: 21/12/2021                                                                                            ===
+//                                                                                                                                                                                         ===                         
+//                                                                                                                                                                                         ===      
+//                                                                                                                                                                                         ===
+//                                                                                                                                                                                         ===
+// ===========================================================================================================================================================================================
 
 let login = document.getElementById("loginAccess");
 let output = document.getElementById("outputForm");
@@ -824,15 +838,3 @@ function customForm(e){
     let username = document.getElementById("username").value;
     output.textContent = `Bienvenido ${username}`;
 }
-
-
-// let msg = document.getElementById("btnwt");               // revisar. No funciona con el formulario. (Revisar código del formulario)
-// let output2 = document.getElementById("output2");
-
-// msg.addEventListener("submit", msgForm);
-
-// function msgForm (e){
-//     e.preventDefault();
-//     let wtName = document.getElementById("wtName1").value;
-//     output2.textContent = `Formulario enviado con éxito. Pronto nos pondremos en contacto, ${wtName}`
-// }
