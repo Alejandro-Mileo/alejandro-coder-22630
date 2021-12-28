@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-family: 'Cinzel', serif;    
     font-weight: 800;  
     
@@ -12,3 +11,12 @@ html{
 }
 
 
+.tableColor{
+    background: rgb(181,146,190);
+    background: linear-gradient(332deg, rgba(181,146,190,1) 4%, rgba(108,170,180,1) 74%);
+}
+
+.textLine{
+
+    font-size: .9rem;
+}
