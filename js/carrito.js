@@ -14,7 +14,7 @@ function compraCarrito(infoCarrito){        // creo la función con el parámetr
         <td>$${producto.precio}.-</td>
         <td>${producto.cantidad}</td>
         <td>${producto.id}</td>
-        <td><button class="btn btn-danger eliminarProducto btn-query" id="${producto.id}">Eliminar</button</td>
+        <td><button class="btn btn-danger eliminarProducto btn-query" id="${producto.id} eliminarProductos">x</button</td>
 
         `                                               // conecto con la clase constructor de los items del carrito, así se añaden al html del carrito.
 

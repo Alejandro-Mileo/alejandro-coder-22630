@@ -1,15 +1,15 @@
-$(function(){
+$(function () {                         //SWAL al botón de compra de cada item.
 
 
-$("button").click(function(){
-    
+  $("button").on("click",function () {
+
     let timerInterval
     Swal.fire({
       title: '<p class="text-light">Montura añadida con <span class="text-warning">éxito</span><p>',
       icon: 'success',
       html: '<p class="text-center text-success">Item agregado al carrito. <br class="pt-5">Gracias por comprar.</p>',
       background: 'rgb(29, 29, 29)',
-      timer: 2500,
+      timer: 1000,
       timerProgressBar: true,
       didOpen: () => {
         Swal.showLoading()
@@ -26,9 +26,11 @@ $("button").click(function(){
         console.log('I was closed by the timer')
       }
     })
-})
+  })
 
 
 })
+
+
 
 

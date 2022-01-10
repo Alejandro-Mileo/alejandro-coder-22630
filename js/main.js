@@ -15,7 +15,7 @@ function rellenarPagina(arrayProductos) {             //una vez creada, le cream
                 <div class="card-body text-center">
                     <h5 class="card-title">${producto.nombre}</h5>
                         <p class="card-text fs-4"> $ <strong>${producto.precio}</strong></p>
-                            <button class="btn btn-danger anadirCarrito">¡Comprar ahora!</button>
+                            <button class="btn btn-danger anadirCarrito comprarItem">¡Comprar ahora!</button>
         
                 </div>
         </div>        
