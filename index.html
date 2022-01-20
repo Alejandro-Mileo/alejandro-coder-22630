@@ -1,87 +1,488 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!--BS CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Main CSS-->
+    <link rel="stylesheet" href="css/styles.css">
 
-<!--Google Fonts-->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
-
-<!--Bootstrap css-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-<!--FA CDN-->
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-
-<!--Main css-->
-<link rel="stylesheet" href="./styles/style.css">
-
-<title>Document</title>
-
+    <title>Blizzardi</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-5 px-2  w-100">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html"><span class="fs-5">
 
-                <span id="W">W</span> <span id="O">O</span> <span id="R">R</span> <span id="L">L</span> <span id="D">D</span>
-                <span id="OO">O</span> <span id="F">F</span>
-                <span id="M">M</span> <span id="OOO">O</span> <span id="U">U</span> <span id="N">N</span> <span id="T">T</span> <span id="S">S</span> 
+    <header class="container-fluid bg-dark position-sticky">
+
+        <ul class="nav nav-pills mb-3 py-3 container mx-5" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+                    role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
+
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                    type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Productos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Carrito</a>
+            </li>
+        </ul>
+    </header>
 
 
-            </span></a>
-            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="toggler-icon top-bar bar-color"></span>
-                <span class="toggler-icon middle-bar bar-color"></span>
-                <span class="toggler-icon bottom-bar bar-color"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active px-4 fs-5" aria-current="page"
-                            href="carrito.html" id="carrito_id"><i class="fas fa-shopping-cart text-warning"></i></a>
-                    </li>
-                </ul>
-            </div>
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+          <section class="background">
+
+          </section>
+
+
+
+
+
+
+
+
+
+
         </div>
-    </nav>
+
+        <div class="tab-pane fade  show active container" id="pills-profile" role="tabpanel"
+            aria-labelledby="pills-profile-tab">
+            <h2 class="fs-4 m-4 text-primary">Tienda Blizzardi</h2>
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg3 row-cols-xl-4">
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Shadowlands</h5>
+                        <img src="./image/shadowlands.png" class="card-img-top" alt="Shadowlands">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1200.</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Overwatch</h5>
+                        <img src="./image/overwatch.png" class="card-img-top" alt="overwatch">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$950.</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Hearthstone</h5>
+                        <img src="./image/hearthstone.png" class="card-img-top" alt="Hearthstone">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1300</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Diablo II remastered</h5>
+                        <img src="./image/diablo II.png" class="card-img-top" alt="diablo">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1750.</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">Starcraft</h5>
+                        <img src="./image/starctaft.png" class="card-img-top" alt="starcraft">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$700</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">Aniversario 30 años</h5>
+                        <img src="./image/aniversario.png" class="card-img-top" alt="aniversario">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1600</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">Prueba Gratuita</h5>
+                        <img src="./image/prueba.png" class="card-img-top" alt="prueba">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1900</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">The Burning Crusade</h5>
+                        <img src="./image/wowtbc.png" class="card-img-top" alt="The Burning Crusade">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <h5 class="text-primary"><span class="precio">$1400</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Monturas de alabastro del 15.º Aniversario de WoW®</h5>
+                        <img src="./image/alabastro.png" class="card-img-top" alt="alab">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Celebra 15 años de conflicto y camaradería en Azeroth con un par de majestuosas monturas de alabastro, un tributo en forma de piedras vivientes a las leales criaturas voladoras que han servido a la Horda y la Alianza.</p>
+                          <h5 class="text-primary"><span class="precio">$1500</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Hogrus, el cerdo de la buena suerte</h5>
+                        <img src="./image/hogrus.png" class="card-img-top" alt="hogrus">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Cuenta la leyenda que, en su su momento de desesperación más profunda, mientras meditaba sobre el futuro de su gente, el emperador Shaohao, soberano del Imperio pandaren, recibió la visita de Hogrus, el cerdo de la buena suerte.</p>
+                          <h5 class="text-primary"><span class="precio">$2000
+                        </span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Semental Trenzamar y ravasaurio engalanado</h5>
+                        <img src="./image/bfa.png" class="card-img-top" alt="bfa">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">¡Preparaos para una guerra sin cuartel entre las facciones de Azeroth con este juego de dos monturas por una! Cargad a la batalla a lomos del semental Trenzamar como orgullosos miembros de la Alianza o subíos al ravasaurio de la Horda.</p>
+                          <h5 class="text-primary"><span class="precio">$800</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">[Deluxe | Oferta] Tormento de Guerra</h5>
+                        <img src="./image/tormento.png" class="card-img-top" alt="micifuz">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">¡Entra en la batalla a lomos de un Tormento de Guerra y siembra el caos más devastador entre tus enemigos! Este aterrador corcel, forjado en frío acero y espíritus vengativos por las manos de grandes maestros herreros, te permite establecer un Amarradero de tormento.</p>
+                          <h5 class="text-primary"><span class="precio">$1550</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">[Deluxe | Oferta] Compañero vulpino</h5>
+                        <img src="./image/vulpino.png" class="card-img-top" alt="vulpino">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Dotado de una gran inteligencia y de una curiosidad insaciable, esta raza de zorro ha viajado por la Gran Oscuridad del Más Allá para buscar la compañía de los héroes más grandes de Azeroth.</p>
+                          <h5 class="text-primary"><span class="precio">$1900</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">[Deluxe | Oferta] Yun el Afortunado</h5>
+                        <img src="./image/yun.png" class="card-img-top" alt="yun">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">¿Necesitas que la fortuna te sonría? ¡Estás de suerte! Los ancianos pandaren aseguran que Yun el Afortunado concederá prosperidad a quien toque su reluciente piel. Agarra a este buey por los cuernos y prepárate para tener buena fortuna.</p>
+                          <h5 class="text-primary"><span class="precio">$1250</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">[Deluxe | Oferta | Últimos días] Guardián alado</h5>
+                        <img src="./image/guardian.png" class="card-img-top" alt="guardián">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Surcando el cielo montado en un resplandeciente león con alas de águila, tus amigos sabrán que no vas de farol. Vas muy en serio. Aprieta bien las riendas porque esta montura voladora se ajusta a la velocidad de tu habilidad como jinete.</p>
+                          <h5 class="text-primary"><span class="precio">$1600</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-danger text-center pt-2">[Deluxe | Oferta] Ruiditos la Bromista</h5>
+                        <img src="./image/ruiditos.png" class="card-img-top" alt="ruiditos">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">No está del todo claro de dónde ha sacado Ruiditos sus increíbles alas de jade. Quizá consiguiese engañar al mismísimo Dragón de Jade. En cualquier caso, la primera rata voladora de Azeroth está preparada para explorar y hacer de las suyas dondequiera que vaya.</p>
+                          <h5 class="text-primary"><span class="precio">$1500</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Cambio de nombre</h5>
+                        <img src="./image/nombre.png" class="card-img-top" alt="subida">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">El nombre que escogiste inicialmente para tu héroe no tiene por qué ser para toda la eternidad. Quizás te has convertido en un personaje demasiado conocido (o impopular).</p>
+                          <h5 class="text-primary"><span class="precio">$1200</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">World of Warcraft®: Suscripción</h5>
+                        <img src="./image/ficha.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">El tiempo es oro... y, a veces, hasta más valioso. 
+
+                            Por eso los jugadores de World of Warcraft pueden intercambiar oro por tiempo de juego o saldo de Battle.net de una forma cómoda y segura con la Ficha de WoW.</p>
+                          <h5 class="text-primary"><span class="precio">$3000</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Cambio de raza</h5>
+                        <img src="./image/raza.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">No es fácil ser verde... o azul... o rosa purpúreo de orejas puntiagudas. A veces un simple retoque a la imagen de tu personaje no es suficiente. A veces necesitas ir más allá y cambiar por completo.</p>
+                          <h5 class="text-primary"><span class="precio">$1130</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col d-flex justify-content-center mb-4">
+                    <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+                        <h5 class="card-title text-warning text-center pt-2">Transferencia de personaje</h5>
+                        <img src="./image/transferencia.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text text-white-50 description">Transfiere a un personaje entre reinos de World of Warcraft, lo que te permitirá jugar con una nueva comunidad de jugadores y descubrir amigos nuevos y conocidos en servidores nuevos, todo ello sin tener que comenzar desde el primer nivel.</p>
+                          <h5 class="text-primary"><span class="precio">$1800</span></h5>
+                          <div class="d-grid gap-2">
+                          <button class="btn btn-primary button">Comprar</button>
+                        </div>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+
+        </div>
 
 
-    <main class="d-flex justify-content-center">
+        <div class="tab-pane fade carrito" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <br>
+            <table class="table table-dark table-hover">
+                <thead>
+                  <tr class="text-primary">
+                    <th scope="col" class="inviTH">#</th>
+                    <th scope="col">Producto</th>
+                    <th scope="col">Precio</th>
+                    <th scope="col">Cantidad</th>
+                  </tr>
+                </thead>
+                <tbody class="tbody">
+                </tbody>
+              </table>
 
-        <div id="row" class="row mb-3"></div>  
-        
-        <!--Contenido a agregar con JS.-->
+              <br><br>
 
-    </main>
+              <div class="row mx-4">
+                  <div class="col">
+                      <h3 class="itemCartTotal text-white"> Total: 0</h3>
+                  </div>
+               <div class="col d-flex justify-content-end">
+                   <button class="btn btn-success">Comprar</button>
+               </div>   
+
+              </div>
+        </div>
+    </div>
+
+<div class="go-top-container">
+  <div class="go-top-button">
+    <i class="fas fa-arrow-up fa-1x text-danger"></i>
+  </div>
+</div>
+
+    <footer class="bg-dark text-white pt-5">
+
+      <div class="container text-center text-md-left">
+
+          <div class="row text-center text-md-left">
+
+              <div class="col-md-3 col-lg3 col-xl-3 mx-auto mt-3">
+
+                  <h5 class="text-uppercase list-title mb-4">World of Mounts</h5>
+                  <p>El único sitio donde podrás comprar tus monturas de World of Warcraft a un precio especial.
+                  </p>
+              </div>
+
+              <div class="col-md-2 cold-lg-2 col-xl-2 mx-auto mt-3">
+                  <h5 class="text-uppercase list-title mb-4">¿Qué ofrecemos?</h5>
+                  <p>Monturas Voladoras</p>
+                  <p>Monturas Terrestres</p>
+                  <p>Monturas Épicas</p>
+                  <p>Montuas TCG</p>
+              </div>
+              <div class="col-md-3 col-lg2 col-xl-2 mx-auto mt-3">
+                  <h5>¿POR QUÉ ELEGIRNOS?</h5>
+                  <p>Precios únicos</p>
+                  <p>Reembolso al 100%</p>
+                  <p>Miles de ventas realizadas con éxito.</p>
+                  <p>Tu compra está protegida.</p>
+
+              </div>
+
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+
+                  <h5 class="text-uppercase list-title mb-4">Contacto.</h5>
+                  <p>E-mail: ventas@worldmounts.com</p>
+                  <p>teléfono: 111-1111-11111</p>
+                  <p>Facebook: xxxxx</p>
+                  <p>Twitter: xxxxx</p>
+                  <p>instagram: xxxxxx</p>
+
+              </div>
+
+          </div>
+          <hr class="mb-4">
+
+          <div class="row align-items-center">
+              <div class="col-md-7 col-lg-8">
+                  <p>World of Mounts 2022 Copyright © Todos los derechos reservados. <br> Powered by: Alejandro Mileo.</span></p>
+              </div>
+
+              <div class="col-md-5 col-lg-4">
+
+                  <div class="text-center text-md-right">
+
+                      <ul class="list-unstyled list-inline">
+
+                          <li class="list-inline-item">
+                              <a href="https://www.facebook.com/Lirhium/" target="_blank"
+                                  class="btn-sm text-white fs-4"><i class="fab fa-facebook fa-1x list-name"></i></a>
+                          </li>
+
+                          <li class="list-inline-item">
+                              <a href="https://www.youtube.com/watch?v=57pq5_zzoc0&ab_channel=MOTAFILMS"
+                                  target="_blank" class="btn-sm text-white fs-4"><i
+                                      class="fab fa-youtube fa-1x list-name"></i></a>
+                          </li>
+
+                          <li class="list-inline-item">
+                              <a href="https://api.whatsapp.com/send?phone=541134250394&text=hola,%20necesito%20informaci%C3%B3n%20acerca%20de...."
+                                  target="_blank" class="btn-sm text-white fs-4"><i
+                                      class="fab fa-whatsapp fa-1x list-name"></i></a>
+                          </li>
+
+                          <li class="list-inline-item">
+                              <a href="https://www.instagram.com/xld.50x" target="_blank"
+                                  class="btn-sm text-white fs-4"><i class="fab fa-instagram fa-1x list-name"></i></a>
+                          </li>
+
+                      </ul>
+
+                  </div>
+
+              </div>
+
+          </div>
+      </div>
+  </footer>
 
 
-    <!--Bootstrap JS-->
+
+
+
+    <!--Main JS-->
+    <script src="JavaScript/script.js"></script>
+
+    <!--BS JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 
-    <!--JQUERY CDN-->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
 
-    <!--SWAL CDN-->
-    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
-
-    <!--MAIN JS-->
-    <script src="./js/productos.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./js/swalBuy.js"></script>
-    <script src="./js/animationTitle.js"></script>
-
-    
-
-
-</body> 
 </html>
