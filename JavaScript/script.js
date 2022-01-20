@@ -27,7 +27,7 @@ function addItemCarrito(newItem){
     let ItemCarrito = document.getElementsByClassName('table__cantidad')
     
         for(let i=0; i < carrito.length; i++){
-            if(carrito[i].title.trim() === newItem.title.trim()){
+            if(carrito[i].title === newItem.title){
                 carrito[i].cantidad ++;
                 const inputValue = ItemCarrito[i].childNodes[1];
                 inputValue.value++;
@@ -91,7 +91,7 @@ function removeItemCarrito(e){
     let title = tr.querySelector('.title').textContent;
     for(let i=0; i<carrito.length ; i++){
   
-      if(carrito[i].title.trim() === title.trim()){
+      if(carrito[i].title === title){
         carrito.splice(i, 1)
       }
     }
@@ -127,12 +127,10 @@ window.onload = function(){
 
 
 
-
 //Botón para ir arriba//
 
 
 window.onscroll = function(){
-    console.log(document.documentElement.scrollTop)
     if(document.documentElement.scrollTop > 255){
         document.querySelector(".go-top-container")
         .classList.add("show");
@@ -148,5 +146,36 @@ document.querySelector(".go-top-container")
     window.scrollTo({
         top: 0,
         behavior: "smooth"
+    })
+})
+
+
+//Jquery//
+
+$(function(){
+    $(".buttonBuy").click(function(){
+        let timerInterval
+    Swal.fire({
+      title: '<p class="text-light">Producto agregado con <span class="text-success">éxito</span>.<p>',
+      icon: 'success',
+      html: '<p class="text-center text-success">Aún hay mucho por comprar</p> <br><i class="far fa-laugh-wink fa-2x text-light mt-3"></i>',
+      background: 'rgb(29, 29, 29)',
+      timer: 2000,
+      timerProgressBar: true,
+      didOpen: () => {
+        Swal.showLoading()
+        const b = Swal.getHtmlContainer().querySelector('b')
+        timerInterval = setInterval(() => {
+          b.textContent = Swal.getTimerLeft()
+        }, 100)
+      },
+      willClose: () => {
+        clearInterval(timerInterval)
+      }
+    }).then((result) => {
+      if (result.dismiss === Swal.DismissReason.timer) {
+        console.log('I was closed by the timer')
+      }
+    })
     })
 })
