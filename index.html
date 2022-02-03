@@ -33,10 +33,13 @@
             </li>
             <li class="nav-item" role="presentation">
                 <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact"
-                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-shopping-cart"></i></a>
+                    type="button" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-shopping-cart"><p class="contadorCompra"></p></i>
+                    <p class="contadorCarrito"> </p>
+                  </a>
             </li>
         </ul>
     </header>
+
 
 
     <div class="tab-content" id="pills-tabContent">
@@ -372,8 +375,13 @@
                       <h3 class="itemCartTotal text-white"> Total: 0</h3>
                   </div>
                <div class="col d-flex justify-content-end">
-                   <button class="btn btn-success">Comprar</button>
-               </div>   
+                   <button class="btn btn-success" id="buyButton">Comprar</button>
+                   <button class="btn btn-warning  mx-4" id="recomendaciones">TOP compradores</button>
+               </div> 
+                
+              <div class="recomendacionesUsuarios">
+
+              </div> 
 
               </div>
         </div>
